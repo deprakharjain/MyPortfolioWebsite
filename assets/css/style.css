@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
+  background-color: #f0e6e6;
   color: #4e4e4e;
 }
 
@@ -184,6 +184,15 @@ a:hover {
   background-color: #0078ff;
   width: 100px;
   bottom: -12px;
+}
+
+.skill-heading:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: 251px;
 }
 
 /*------/ Box /------*/
@@ -462,6 +471,14 @@ a:hover {
 
 #header .logo a {
   color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#header .logo a span{
+  color: crimson;
+    transition: all 0.3s ease;
+}
 }
 
 #header .logo img {
@@ -472,6 +489,11 @@ a:hover {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
 }
+
+#hero-subtitle #typed{
+  color: crimson;
+  font-weight: 500;
+} 
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -838,6 +860,10 @@ a:hover {
   background-color: #0078ff;
 }
 
+.skill-heading {
+  text-align: center;
+  font-size: 29px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
